@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body{
+    font-family: 'Acme', sans-serif;
+    margin: 0px;
+}
+:root
+{
+    --primary-color: rgb(29, 1, 29);
+    --dark-violet:rgb(39, 5, 39);
+    --dark-grey:rgb(95, 92, 92);
+    --light-gray: rgb(197, 192, 192);
+}
+.container{
+    padding:0rem 1rem;
+}
+
+.container-center{
+
+    max-width: 600px;
+    margin: auto;
+}
+
+hr{
+    margin: 2 rem 0rem;
+}
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+
+}
+
+.link-primary{
+
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color);
+    color: var(--primary-color);
+
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display:inline;
+    padding:0rem 0.5rem;  
+
+}
+
+.navigation{
+    background-color: var(--dark-violet);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 3rem;
+
+}
+.navigation .link{
+    color: white;
+
+}
+.navigation .nav-brand{
+    font-weight: bolder;
+   font-size: 2rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 380px;
+    display: block;
+    margin:auto;
+}
+
+.hero .hero-head{
+    text-align: center;
+    padding-top:2rem;
+    color:var(--dark-grey);
+    font-size: 2rem;
+    text-align: center;
+}
+.hero .hero-head .highlight{
+    color:var(--primary-color);
+}
+.section{
+    padding: 2rem;
+}
+.section .h3{
+    text-align: center;
+}
+
+.backgray{
+    background-color: var(--light-gray);
+
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 3rem;
+
+}
+.footer .link{
+    color:white;
+} 
+
+.footer .ul .footer-head{
+    padding-inline-start: 0px;
+} 
+.footer .footer-head{
+    padding-inline-start: 0px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+} 
